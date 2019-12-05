@@ -21,6 +21,7 @@ func main() {
 
 	seeking := 19690720
 
+	// Here starts the most advanced, optimal and efficient wat of doing things, keep running around until you find the result (needs to refactor this)
 	for i := 1; i < 100; i++ {
 		noun := i
 		mutableInput := make([]int, len(input))
